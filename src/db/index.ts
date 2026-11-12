@@ -1,6 +1,6 @@
-import "dotenv/config";
+﻿import "dotenv/config";
 
-import pg from "../../node_modules/@types/pg/index.js";
+import pg from "pg";
 import { drizzle } from "drizzle-orm/node-postgres";
 
 import { env } from "../config/env.js";
